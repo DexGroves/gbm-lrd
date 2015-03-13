@@ -7,7 +7,7 @@ Learning rate decay is, at best, only marginally useful in GBMs. Keeping this ve
 
     install.packages("devtools")
 
-Then install `gbm` from GitHub:
+Then install `gbm-lrd` from GitHub:
 
     library(devtools)
-    install_github("DexGroves/gbm")
+    install_github("DexGroves/gbm-lrd")
