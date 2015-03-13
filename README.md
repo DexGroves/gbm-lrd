@@ -1,15 +1,13 @@
-gbm: gradient boosted models
+gbm-lrd: gradient boosted models, with learning rate decay
 ----------------------------
 
-Originally written by Greg Ridgeway, added to by various authors, currently
-maintained by Harry Southworth.
+Originally written by Greg Ridgeway, added to by various authors, forked later here.
 
-Non-production releases (bug fixes, mostly) will be released via the GitHub
-release workflow. To install from GitHub, first install `devtools` from CRAN:
+Learning rate decay is, at best, only marginally useful in GBMs. Keeping this version alive in case that is proved wrong.
 
     install.packages("devtools")
 
 Then install `gbm` from GitHub:
 
     library(devtools)
-    install_github("harrysouthworth/gbm")
+    install_github("DexGroves/gbm")
